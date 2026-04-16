@@ -1,10 +1,10 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Link, Headphones, RefreshCw, Rocket, CheckCircle2 } from 'lucide-react';
+import { Link, RefreshCw, Rocket, TrendingUp, CheckCircle2 } from 'lucide-react';
 
 const items = [
   { icon: Link, text: 'Koppeling Business Central en Magento valideren', done: false },
-  { icon: Headphones, text: 'Service Hub voorbereiden voor klantenservice', done: false },
+  { icon: TrendingUp, text: 'Sleeping customers activeren met data-inzichten', done: false },
   { icon: RefreshCw, text: 'Doorlopende optimalisatie en support', done: false },
   { icon: Rocket, text: 'Zelfstandig werken met HubSpot', done: false },
 ];
